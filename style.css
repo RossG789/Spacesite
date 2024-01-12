@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: poppins, sans-serif;
+}
+
+header {
+  position: fixed;
+  color: #fefae0;
+  display: flex;
+  justify-content: space-between;
+  padding: 2.5rem 3rem;
+  gap: 3rem;
+  z-index: 1;
+  width: 100vw;
+}
+
+nav {
+  display: flex;
+  gap: 3rem;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  align-items: center;
+}
+
+nav a {
+  color: #fefae0;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: rgb(184, 58, 156);
+}
+
+.image {
+  background-image: url("https://images.prismic.io/star-trek-untold/YjRkMDRmYTUtZDdkZS00ZGM0LWE3YWEtNTgyODhkMzUzMWNk_essay_rr_what-is-a-galaxy.jpg?auto=compress,format&rect=0,0,2000,1080&w=2000&h=1080");
+}
+
+.hero {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.slogan {
+  position: absolute;
+  bottom: 50%;
+  left: 3rem;
+  color: #fefae0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+}
+
+.slogan h1 {
+  font-size: 2rem;
+}
+
+.cookie-notice {
+  background: #fefae0;
+  height: 120px;
+  width: 100%;
+  padding: 20px;
+  position: fixed;
+  bottom: 0px;
+}
+
+.btn-box {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  margin: 10px 20px 0 20px;
+  padding: 5px;
+}
+
+.cookie-notice {
+  text-align: center;
+}
+
+.copy {
+  margin: 8px 0 8px 0;
+  font-size: small;
+  color: #584d4d;
+}
